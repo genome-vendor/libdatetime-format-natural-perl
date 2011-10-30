@@ -1,0 +1,41 @@
+Source: libdatetime-format-natural-perl
+Section: perl
+Priority: optional
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Ansgar Burchardt <ansgar@debian.org>,
+ gregor herrmann <gregoa@debian.org>,
+ Rene Mayorga <rmayorga@debian.org>,
+ Angel Abad <angelabad@gmail.com>,
+ Jonathan Yu <jawnsy@cpan.org>,
+ Salvatore Bonaccorso <carnil@debian.org>
+Build-Depends: debhelper (>= 8)
+Build-Depends-Indep: libboolean-perl,
+ libdate-calc-perl,
+ libdatetime-perl,
+ liblist-moreutils-perl,
+ libmodule-util-perl,
+ libparams-validate-perl,
+ libtest-mocktime-perl,
+ libtest-pod-coverage-perl,
+ libtest-pod-perl,
+ perl,
+ perl (>= 5.10.1) | libmodule-build-perl (>= 0.340201)
+Standards-Version: 3.9.2
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-perl/packages/libdatetime-format-natural-perl.git
+Vcs-Git: git://git.debian.org/pkg-perl/packages/libdatetime-format-natural-perl.git
+Homepage: http://search.cpan.org/dist/DateTime-Format-Natural/
+
+Package: libdatetime-format-natural-perl
+Architecture: all
+Depends: ${misc:Depends}, ${perl:Depends},
+ libboolean-perl,
+ libdatetime-perl,
+ liblist-moreutils-perl,
+ libparams-validate-perl
+Suggests: libdate-calc-perl
+Description: Perl module for parsing human-readable date/time strings
+ DateTime::Format::Natural parses a string with a human readable date/time
+ and creates a machine readable one by applying natural parsing logic. It 
+ also understands timespans.
+ .
+ The module is currently limited to English.

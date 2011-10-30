@@ -1,0 +1,261 @@
+libdatetime-format-natural-perl (0.98-1) unstable; urgency=low
+
+  [ gregor herrmann ]
+  * Remove debian/source/local-options; abort-on-upstream-changes and
+    unapply-patches are default in dpkg-source since 1.16.1.
+
+  [ Angel Abad ]
+  * Imported Upstream version 0.98
+
+ -- Angel Abad <angelabad@gmail.com>  Sun, 30 Oct 2011 15:57:00 +0100
+
+libdatetime-format-natural-perl (0.97-1) unstable; urgency=low
+
+  [ Ansgar Burchardt ]
+  * [svn-upgrade] new version libdatetime-format-natural-perl (0.96)
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ Salvatore Bonaccorso ]
+  * [packagecheck] fixed Vcs-(Git|Browser)/Homepage field(s) in debian/control
+    and/or URL in debian/watch and/or rmdir /usr/{lib|share}/perl5 in
+    debian/rules.
+
+  [ Angel Abad ]
+  * Imported Upstream version 0.97
+
+ -- Angel Abad <angelabad@gmail.com>  Wed, 17 Aug 2011 18:12:21 +0200
+
+libdatetime-format-natural-perl (0.96-1) unstable; urgency=low
+
+  * New upstream release.
+  * Refresh do-not-install-dateparse.patch.
+
+ -- Ansgar Burchardt <ansgar@debian.org>  Thu, 02 Jun 2011 13:19:57 +0200
+
+libdatetime-format-natural-perl (0.95-1) unstable; urgency=low
+
+  * New upstream release
+  * Bump Standards-Version to 3.9.2.
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sat, 14 May 2011 23:41:16 +0200
+
+libdatetime-format-natural-perl (0.94-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Angel Abad <angelabad@gmail.com>  Tue, 19 Apr 2011 14:01:24 +0200
+
+libdatetime-format-natural-perl (0.93-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Angel Abad <angelabad@gmail.com>  Fri, 04 Feb 2011 23:25:59 +0100
+
+libdatetime-format-natural-perl (0.92-1) unstable; urgency=low
+
+  * New upstream release
+  * Bump Debhelper compat level to 8: Use Build.PL instead of
+    Makefile.PL by default.
+  * debian/control: 
+    - Bump versioned Build-Depends on debhelper to (>= 8).
+    - Add libmodule-util-perl to Build-Depends-Indep.
+    - Add alternate Build-Depends-Indep on perl (>= 5.10.1) |
+      libmodule-build-perl (>= 0.340000).
+  * debian/patches: Refresh do-not-install-dateparse.patch patch.
+  * debian/copyright: Update copyright years for debian/* packaging
+    stanza.
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sat, 15 Jan 2011 11:38:25 +0100
+
+libdatetime-format-natural-perl (0.91-1) unstable; urgency=low
+
+  [ Ansgar Burchardt ]
+  * Update my email address.
+
+  [ Angel Abad ]
+  * New upstream release
+
+  [ Salvatore Bonaccorso ]
+  * Update my email address.
+  * debian/copyright: Refer to Debian systems in general instead of
+    Debian GNU/Linux systems.
+
+ -- Angel Abad <angelabad@gmail.com>  Tue, 02 Nov 2010 15:04:53 +0100
+
+libdatetime-format-natural-perl (0.90-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/patches/do-not-install-dateparse.patch: Refresh patch
+
+ -- Angel Abad <angelabad@gmail.com>  Mon, 04 Oct 2010 16:59:03 +0200
+
+libdatetime-format-natural-perl (0.89-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/copyright: Refresh debian/* packaging stanza and explicitly
+    reference GPL-1 license text in common-licenses.
+  * Bump Standards-Version to 3.9.1.
+
+ -- Salvatore Bonaccorso <salvatore.bonaccorso@gmail.com>  Fri, 06 Aug 2010 00:22:41 +0200
+
+libdatetime-format-natural-perl (0.88-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Salvatore Bonaccorso <salvatore.bonaccorso@gmail.com>  Thu, 17 Jun 2010 07:44:50 +0200
+
+libdatetime-format-natural-perl (0.87-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Yu <jawnsy@cpan.org>  Sun, 30 May 2010 11:28:02 -0400
+
+libdatetime-format-natural-perl (0.86-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Angel Abad <angelabad@gmail.com>  Tue, 20 Apr 2010 16:43:29 +0200
+
+libdatetime-format-natural-perl (0.85-1) unstable; urgency=low
+
+  * New upstream release
+  * Use new 3.0 (quilt) source format
+  * Package no longer uses M::B::Compat, drop dep on dh 7.0.17
+  * Update copyright information
+
+ -- Jonathan Yu <jawnsy@cpan.org>  Sat, 13 Mar 2010 23:08:12 -0500
+
+libdatetime-format-natural-perl (0.84-1) unstable; urgency=low
+
+  [ Angel Abad ]
+  * New upstream release
+  * Standards-Version 3.8.4 (no changes)
+
+  [ Franck Joncourt ]
+  * Added BD against libmodule-build-perl.
+  * Bumped-up debhelper versionned dependency to 7.0.17.
+    (Makefile built with Module::Build::Compat)
+
+ -- Angel Abad <angelabad@gmail.com>  Mon, 22 Feb 2010 20:50:55 +0100
+
+libdatetime-format-natural-perl (0.83-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Angel Abad <angelabad@gmail.com>  Thu, 14 Jan 2010 00:04:58 +0100
+
+libdatetime-format-natural-perl (0.82-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Yu <jawnsy@cpan.org>  Mon, 21 Dec 2009 11:18:11 -0500
+
+libdatetime-format-natural-perl (0.81-1) unstable; urgency=low
+
+  * New upstream release
+  * Add myself to Uploaders and Copyright
+
+ -- Jonathan Yu <jawnsy@cpan.org>  Sat, 21 Nov 2009 17:14:07 -0500
+
+libdatetime-format-natural-perl (0.80-1) unstable; urgency=low
+
+  [ Angel Abad ]
+  * Update my email address
+
+  [ Salvatore Bonaccorso ]
+  * New upstream release 
+  * Refresh debian/copyright file for revision 59 of the DEP5 machine readable
+    format proposal. 
+  * debian/control: 
+    - Slightly improve short description matching now the 'is a' rule.
+    - Slightly improve the long description of the package.
+
+ -- Salvatore Bonaccorso <salvatore.bonaccorso@gmail.com>  Mon, 02 Nov 2009 21:56:31 +0100
+
+libdatetime-format-natural-perl (0.79-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/control: Changed: Replace versioned (build-)dependency on
+    perl (>= 5.6.0-{12,16}) with an unversioned dependency on perl (as
+    permitted by Debian Policy 3.8.3).
+  * Bump Standards-Version to 3.8.3 (no changes) 
+
+ -- Salvatore Bonaccorso <salvatore.bonaccorso@gmail.com>  Sat, 19 Sep 2009 23:14:15 +0000
+
+libdatetime-format-natural-perl (0.78-1) unstable; urgency=low
+
+  [ Nathan Handler ]
+  * debian/watch: Update to ignore development releases.
+
+  [ Angel Abad (Ikusnet SLL) ]
+  * New upstream release
+  * Refresh patch do-not-install-dateparse.patch
+  * Add myself to Uploaders
+
+  [ gregor herrmann ]
+  * debian/control: make short description a noun phrase.
+  * debian/rules: simplify by using "--with quilt"; adjust build dependencies.
+
+  [ Salvatore Bonaccorso ]
+  * New upstream release
+  * Bump Standards-Version to 3.8.2 (no changes).
+  * Add myself to uploaders 
+  * Update debian/copyright to new proposal format, and also add a
+    note on upstream licensing/copyright. 
+
+ -- Salvatore Bonaccorso <salvatore.bonaccorso@gmail.com>  Fri, 07 Aug 2009 23:36:07 +0200
+
+libdatetime-format-natural-perl (0.76-1) unstable; urgency=low
+
+  * New upstream release.
+  * Refresh patch do-not-install-dateparse.patch
+  * Downgrade libdate-calc-perl from Depends to Suggests.
+  * Bump Standards Version to 3.8.1 (no changes).
+
+ -- Ansgar Burchardt <ansgar@43-1.org>  Sun, 12 Apr 2009 10:34:40 +0200
+
+libdatetime-format-natural-perl (0.75-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/control: add myself to uploaders
+  * refresh patch do-not-install-dateparse.patch
+  * debian/copyright: update upstream copyright years, based
+    on Changes file
+
+ -- Rene Mayorga <rmayorga@debian.org>  Thu, 19 Feb 2009 22:09:11 -0600
+
+libdatetime-format-natural-perl (0.74-1) unstable; urgency=low
+
+  * New upstream release.
+  * debian/control: Changed: Switched Vcs-Browser field to ViewSVN
+    (source stanza).
+  * Add a header to patch do-not-install-dateparse.patch.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 21 Dec 2008 22:42:46 +0100
+
+libdatetime-format-natural-perl (0.73-1) unstable; urgency=low
+
+  * New upstream release.
+  * Refresh patch do-not-install-dateparse.patch.
+  * Add /me to Uploaders.
+  * debian/control: wrap long lines.
+  * Remove libmodule-build-perl from Build-Depends, debhelper 7 prefers
+    MakeMaker.
+
+ -- gregor herrmann <gregoa@debian.org>  Wed, 29 Oct 2008 13:26:36 +0100
+
+libdatetime-format-natural-perl (0.72-1) unstable; urgency=low
+
+  [ Tim Retout ]
+  * debian/copyright: Fix 'at your opinion' typo.
+
+  [ Ansgar Burchardt ]
+  * New upstream release
+
+ -- Ansgar Burchardt <ansgar@43-1.org>  Thu, 21 Aug 2008 12:01:34 +0200
+
+libdatetime-format-natural-perl (0.71-1) unstable; urgency=low
+
+  * Initial Release (Closes: #488382)
+
+ -- Ansgar Burchardt <ansgar@43-1.org>  Sun, 13 Jul 2008 14:52:48 +0200
